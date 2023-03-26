@@ -32,7 +32,7 @@ public class Truncate {
          */
         String sql = FileUtil.parseSQLFile("problem2.sql");
 
-
+        sql = "TRUNCATE TABLE song;";
 
         try {
             Connection connection = ConnectionUtil.getConnection();
